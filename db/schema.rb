@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151028155342) do
+ActiveRecord::Schema.define(version: 20151028162138) do
 
   create_table "casein_admin_users", force: :cascade do |t|
     t.string   "login",               limit: 255,             null: false
@@ -33,6 +33,7 @@ ActiveRecord::Schema.define(version: 20151028155342) do
     t.string   "time_zone",           limit: 255
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "avatar",              limit: 255
   end
 
 end
