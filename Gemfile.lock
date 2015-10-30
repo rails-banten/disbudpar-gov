@@ -192,11 +192,8 @@ PLATFORMS
 DEPENDENCIES
   bcrypt (~> 3.1.7)
   byebug
-<<<<<<< HEAD
-=======
   capistrano-rails
   carrierwave
->>>>>>> 4f3d88547d4a42a3fad3fbe1957cbdc592e1f112
   casein (~> 5.1.1)
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
